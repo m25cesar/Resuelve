@@ -2,8 +2,8 @@ c:\users\pc\documents\visual studio 2015\Projects\Resuelve\Resuelve\bin\Debug\Re
 c:\users\pc\documents\visual studio 2015\Projects\Resuelve\Resuelve\bin\Debug\Resuelve.exe
 c:\users\pc\documents\visual studio 2015\Projects\Resuelve\Resuelve\bin\Debug\Resuelve.pdb
 c:\users\pc\documents\visual studio 2015\Projects\Resuelve\Resuelve\obj\Debug\Resuelve.csprojResolveAssemblyReference.cache
-c:\users\pc\documents\visual studio 2015\Projects\Resuelve\Resuelve\obj\Debug\Resuelve.Form1.resources
 c:\users\pc\documents\visual studio 2015\Projects\Resuelve\Resuelve\obj\Debug\Resuelve.Properties.Resources.resources
 c:\users\pc\documents\visual studio 2015\Projects\Resuelve\Resuelve\obj\Debug\Resuelve.csproj.GenerateResource.Cache
 c:\users\pc\documents\visual studio 2015\Projects\Resuelve\Resuelve\obj\Debug\Resuelve.exe
 c:\users\pc\documents\visual studio 2015\Projects\Resuelve\Resuelve\obj\Debug\Resuelve.pdb
+C:\Users\pc\documents\visual studio 2015\Projects\Resuelve\Resuelve\obj\Debug\Resuelve.FormResuelve.resources

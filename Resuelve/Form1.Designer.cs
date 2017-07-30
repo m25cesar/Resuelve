@@ -1,6 +1,6 @@
 ﻿namespace Resuelve
 {
-    partial class Form1
+    partial class FormResuelve
     {
         /// <summary>
         /// Required designer variable.
@@ -28,89 +28,90 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.labelFInicio = new System.Windows.Forms.Label();
+            this.labelFFinal = new System.Windows.Forms.Label();
+            this.dateInicio = new System.Windows.Forms.DateTimePicker();
+            this.dateFinal = new System.Windows.Forms.DateTimePicker();
+            this.labelFacturas = new System.Windows.Forms.Label();
+            this.labelPeticiones = new System.Windows.Forms.Label();
+            this.btnIniciar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // labelFInicio
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(40, 29);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(65, 13);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Fecha Inicio";
+            this.labelFInicio.AutoSize = true;
+            this.labelFInicio.Location = new System.Drawing.Point(40, 29);
+            this.labelFInicio.Name = "labelFInicio";
+            this.labelFInicio.Size = new System.Drawing.Size(65, 13);
+            this.labelFInicio.TabIndex = 0;
+            this.labelFInicio.Text = "Fecha Inicio";
             // 
-            // label2
+            // labelFFinal
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(40, 85);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(62, 13);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "Fecha Final";
+            this.labelFFinal.AutoSize = true;
+            this.labelFFinal.Location = new System.Drawing.Point(40, 85);
+            this.labelFFinal.Name = "labelFFinal";
+            this.labelFFinal.Size = new System.Drawing.Size(62, 13);
+            this.labelFFinal.TabIndex = 1;
+            this.labelFFinal.Text = "Fecha Final";
             // 
-            // dateTimePicker1
+            // dateInicio
             // 
-            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker1.Location = new System.Drawing.Point(43, 45);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(106, 20);
-            this.dateTimePicker1.TabIndex = 2;
+            this.dateInicio.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateInicio.Location = new System.Drawing.Point(111, 23);
+            this.dateInicio.Name = "dateInicio";
+            this.dateInicio.Size = new System.Drawing.Size(106, 20);
+            this.dateInicio.TabIndex = 2;
             // 
-            // dateTimePicker2
+            // dateFinal
             // 
-            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateTimePicker2.Location = new System.Drawing.Point(43, 101);
-            this.dateTimePicker2.Name = "dateTimePicker2";
-            this.dateTimePicker2.Size = new System.Drawing.Size(106, 20);
-            this.dateTimePicker2.TabIndex = 3;
+            this.dateFinal.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateFinal.Location = new System.Drawing.Point(111, 78);
+            this.dateFinal.Name = "dateFinal";
+            this.dateFinal.Size = new System.Drawing.Size(106, 20);
+            this.dateFinal.TabIndex = 3;
             // 
-            // label3
+            // labelFacturas
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(43, 148);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(106, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Numero de Facturas:";
+            this.labelFacturas.AutoSize = true;
+            this.labelFacturas.Location = new System.Drawing.Point(40, 129);
+            this.labelFacturas.Name = "labelFacturas";
+            this.labelFacturas.Size = new System.Drawing.Size(106, 13);
+            this.labelFacturas.TabIndex = 4;
+            this.labelFacturas.Text = "Numero de Facturas:";
             // 
-            // label4
+            // labelPeticiones
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(43, 170);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(114, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Numero de Peticiones:";
+            this.labelPeticiones.AutoSize = true;
+            this.labelPeticiones.Location = new System.Drawing.Point(40, 151);
+            this.labelPeticiones.Name = "labelPeticiones";
+            this.labelPeticiones.Size = new System.Drawing.Size(114, 13);
+            this.labelPeticiones.TabIndex = 5;
+            this.labelPeticiones.Text = "Numero de Peticiones:";
             // 
-            // button1
+            // btnIniciar
             // 
-            this.button1.Location = new System.Drawing.Point(105, 205);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Iniciar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnIniciar.Location = new System.Drawing.Point(96, 200);
+            this.btnIniciar.Name = "btnIniciar";
+            this.btnIniciar.Size = new System.Drawing.Size(90, 23);
+            this.btnIniciar.TabIndex = 6;
+            this.btnIniciar.Text = "Iniciar";
+            this.btnIniciar.UseVisualStyleBackColor = true;
+            this.btnIniciar.Click += new System.EventHandler(this.btnIniciar_Click);
             // 
-            // Form1
+            // FormResuelve
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.dateTimePicker2);
-            this.Controls.Add(this.dateTimePicker1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Name = "Form1";
+            this.Controls.Add(this.btnIniciar);
+            this.Controls.Add(this.labelPeticiones);
+            this.Controls.Add(this.labelFacturas);
+            this.Controls.Add(this.dateFinal);
+            this.Controls.Add(this.dateInicio);
+            this.Controls.Add(this.labelFFinal);
+            this.Controls.Add(this.labelFInicio);
+            this.Name = "FormResuelve";
             this.Text = "Resuelve";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -119,13 +120,13 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private System.Windows.Forms.DateTimePicker dateTimePicker2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label labelFInicio;
+        private System.Windows.Forms.Label labelFFinal;
+        private System.Windows.Forms.DateTimePicker dateInicio;
+        private System.Windows.Forms.DateTimePicker dateFinal;
+        private System.Windows.Forms.Label labelFacturas;
+        private System.Windows.Forms.Label labelPeticiones;
+        private System.Windows.Forms.Button btnIniciar;
     }
 }
 
