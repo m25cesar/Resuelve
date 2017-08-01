@@ -14,6 +14,11 @@
 
 ## Uso
 
-- Abrir el archivo Resuelve.exe ubicado en la carpeta Resuelve-master/Ejecutable/
+- Abrir el archivo Resuelve.exe ubicado en la carpeta Resuelve-master\Ejecutable\
 - Seleccionar la fecha inicial y final
 - Presionar el boton "Iniciar" para realizar la consulta de facturas
+
+## Notas
+
+- Implementacion del algoritmo se encuentra en el archivo Resuelve-master\Resuelve\Factura.cs
+- La logica del programa se encuentra en el archivo Resuelve-master\Resuelve\Form1.cs
