@@ -62,6 +62,7 @@
             this.dateInicio.Name = "dateInicio";
             this.dateInicio.Size = new System.Drawing.Size(106, 20);
             this.dateInicio.TabIndex = 2;
+            this.dateInicio.Value = new System.DateTime(2017, 1, 1, 0, 0, 0, 0);
             // 
             // dateFinal
             // 
@@ -70,6 +71,7 @@
             this.dateFinal.Name = "dateFinal";
             this.dateFinal.Size = new System.Drawing.Size(106, 20);
             this.dateFinal.TabIndex = 3;
+            this.dateFinal.Value = new System.DateTime(2017, 12, 31, 0, 0, 0, 0);
             // 
             // labelFacturas
             // 
